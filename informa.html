@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style2.css">
+    <title>Nuevo Producto</title>
+</head>
+<body>
+    <header>
+        <div class="sistema">
+            <img src="galeria/th.jpg" alt="">
+        </div>
+        
+        <nav>
+            <ul>
+                <li><a href="index.html" target="_parent">Inicio</a></li>
+                <li><a href="informa.html" target="_parent">Nuevo Producto</a></li>
+                <li><a href="Productos.html" target="_parent">Productos</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <form method="post" action="index.html">
+    
+    <h1>Nuevo Producto</h1>
+    <label>Nombre del producto:</label><br>
+    <input type="text" name="txtNombre" placeholder="Introdusca el nombre" required><br><br>
+    <label>Precio del producto:</label><br>
+    <input type="number" name="txtPrecio" placeholder="Introdusca el precio" required><br><br>
+    <label>Numero de inventario:</label><br>
+    <input type="number" name="txtNumber" placeholder="Introdusca el numero" required><br><br>
+ 
+    <input type="reset" name="btnCancelar" value="Cancelar">
+    <input type="submit" name="btnCreaProduc" value="Crear Producto">
+</form><br><br>
+
+</body>
+</html>
